@@ -1,3 +1,28 @@
 apper-junit-ABDACASIN1
-
 ABDacasin - Day 1
+
+QUIZ 1
+
+UNIT OF TEST
+1. Unit Test - this is the first level of testing. It is per component. The purpose of this is to ensure each unit of code behaves as it is expected to behave.
+
+2. Integration Testing - this is to test integration components. This verifies interactions on how things are integrated between different components and if all work properly and seemlessly. The goal is to detect issues that arise when multiple units are combined (integrated).
+
+3. System Testing - this is to check system compliance based on the requirements set. Ineevaluate niya yung behavior ng entire system or application as a whole.
+
+4. Acceptance Testing - this is used to ensure software system meets business requirements. This is done by user, customer, or stockholder.
+
+
+5. FALSE (QUESTION: FIRST PARAMETER OF ASSERTEQUALS IS THE ACTUAL VALUE? TRUE OR FALSE)
+
+6. JUnit Jupiter Engine
+
+
+METHODS of ASSERTION
+7. assertEquals - this method will check if 2 values are equal.
+
+8. assertTrue or assertFalse - this verifies if a given condition is true or false
+
+9. assertNull - this will check if the value is null
+
+10. asserArrayEquals - this will compare 2 arrays and check if they are equal
