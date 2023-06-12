@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 
 public class AccountRepositoryTest {
 
+
+    // JUnit DAY 1 notes //
+
     @Test
     void successfulAccountCreation() {
         // Setup
@@ -49,9 +52,9 @@ public class AccountRepositoryTest {
         //Setup and kick
         AccountRepository repository = new AccountRepository();
         String id0 = repository.createAccount("Angelo", 89.9);
-        String id1 = repository.createAccount("Angelo", 89.9);
-        String id2 = repository.createAccount("Angelo", 89.9);
-        String id3 = repository.createAccount("Angelo", 89.9);
+//        String id1 = repository.createAccount("Angelo", 89.9);
+//        String id2 = repository.createAccount("Angelo", 89.9);
+//        String id3 = repository.createAccount("Angelo", 89.9);
 
         //Verify
         Assertions.assertEquals(4, repository.getNumberOfAccounts());
